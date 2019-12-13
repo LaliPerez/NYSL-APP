@@ -1,0 +1,133 @@
+.container1 {
+    position: relative;
+    margin: 1% 0.5%;
+    width: 100%;
+}
+header{
+    width: 100%;
+    border-image-outset: 5% black;
+    background-color: black;
+    z-index: -2;
+    text-align: center;
+    font-family: 'Lucida Sans';
+    color: white;
+}
+
+body {
+    font-family: 'Lucida Sans';
+    color: white;
+    background-image: url('../img/fondoform.jpg');
+    background-position: top;
+    object-fit: cover;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: bold;
+
+}
+
+
+h2,
+h3 {
+    font-style: italic;
+
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+
+.inline-header {
+    font-weight: bold;
+
+}
+
+.lista ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.b {
+    list-style-type: square;
+}
+
+li {
+    float: left;
+
+}
+
+table {
+    margin: 4px 4px;
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid lightgreen;
+    border-radius: 30px;
+    border-spacing: 2px;
+    border-collapse: collapse;
+
+}
+
+th,
+td,
+tr {
+    width: 400px;
+    text-align: center;
+    text-indent: 5px;
+    padding: 10px 10px;
+    vertical-align: middle;
+    background-color: rgba(125, 207, 125, 0.157);
+    font-weight: bold;
+
+}
+
+#tabla1,
+#tabla2 {
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-bottom: 25px;
+
+}
+
+th {
+    text-decoration: underline;
+    font-weight: bold;
+    text-align: center;
+}
+
+.tabla3 th {
+    margin-right: 15%;
+    margin-left: 20%;
+    margin-bottom: 25px;
+    text-align: left;
+
+
+}
+
+.tabla3 td {
+
+    text-align: left;
+    margin-left: 20%;
+    font-weight: bold;
+
+}
+
+section {
+    width: 100%;
+    margin-left: 20px;
+    border-top-width: 40px;
+    background-color: rgba(125, 207, 125, 0.157);
+}
+
+#div_izq {
+    float: left;
+    text-align: left
+}
+
+#div_der {
+    margin-right: 40%;
+    text-align: right
+}

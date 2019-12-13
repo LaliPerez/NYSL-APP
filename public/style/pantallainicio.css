@@ -1,0 +1,19 @@
+body {
+  background-image: url('../img/fondoform.jpg');
+  background-position: top;
+  object-fit: cover;
+  box-sizing: border-box;
+  color: white;
+  font-family: Helvetica;
+  font-weight: bold;
+  margin: 3%;
+
+
+}
+
+div.logo {
+  margin-top: 10px;
+  vertical-align: middle;
+  
+
+}

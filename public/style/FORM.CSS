@@ -1,0 +1,99 @@
+
+
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: black;
+}
+
+body {
+  background-image: url('../img/fondoform.jpg');
+  background-position: top;
+  object-fit: cover;
+  box-sizing: border-box;
+  color: white;
+  font-family: Helvetica;
+  font-weight: bold;
+  margin: 3%;
+
+}
+
+
+h2 {
+  text-align: center;
+  color: white;
+  background-color: olivedrab;
+}
+
+legend {
+  font-size: 20px;
+  text-align: left;
+  color: white;
+  background-color: olivedrab;
+  margin-bottom: 2%;
+  font-weight: bold;
+  border-style: dotted;
+}
+
+label, fieldset div{ 
+  line-height: 0.5em;
+  font-weight: bold;
+  font-size: 18px;
+  width: 50%;
+ 
+}
+
+input{
+  margin-left: 1em;
+  margin-right: 0.5em;
+  border-radius: 5px;
+  font: 14px "Helvetica Neue";
+ }
+
+fieldset {
+  margin: 2%;
+  text-align: justify;
+  vertical-align: middle;
+  padding: 1em 1.5em;
+  border-radius: 20px;
+  border: 2px solid white ;
+  border-width:5px;  
+  border-style: double;
+
+}
+
+input[type=radio]{
+  padding: 5px;
+}
+
+input[type=text],
+[type=date],
+[type=tel],
+[type=email], 
+[type=checkbox],
+[type=select]
+[type=radious] {
+  background-color: #6b8e23;
+  margin-bottom: 3em;
+  
+}
+
+
+input [type=select] {
+  border-radius: 2px;
+  border-color: rgb(68, 139, 53);
+  margin-bottom: 3%;
+  padding: 4px;
+}
+
+fieldset p {
+  text-align: justify;
+  display: inline;
+  
+}
+input [type=submit] {
+  color: black;
+  text-align: center;
+  font-size: 16px;
+  margin: 50%;
+}

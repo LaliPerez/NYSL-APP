@@ -1,0 +1,25 @@
+@media screen and (min-width: 568px) and (orientation: landscape) {
+    #list-ajkatzenmaier,
+    #list-greenbay,
+    #list-howard,
+    #list-marjorie,
+    #list-north,
+    #list-south,
+     {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 360px) and (orientation: portrait) {
+    #list-ajkatzenmaier,
+    #list-greenbay,
+    #list-howard,
+    #list-marjorie,
+    #list-north,
+    #list-south, {
+        display: none;
+    }
+}
+h5{
+    color: green;
+}

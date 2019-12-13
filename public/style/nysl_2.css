@@ -1,0 +1,166 @@
+body {
+  background-image: url('../img/imagenfondo.jpg') ;
+  background-position: top;
+  object-fit: cover;
+}
+
+.container {
+  position: relative;
+  margin: 1% 0.5%;
+  width: 100%;
+}
+
+
+h1 {
+  top: 2%;
+  font-size: 2em;
+  font-style: italic;
+  font-weight: bold;
+  padding-bottom: 3%;
+  color: white;
+  font-family: 'Lucida Sans';
+
+}
+
+header {
+  height: auto;
+  margin-bottom: 1em;
+  position: absolute;
+  top: 92%;
+  left: 0;
+  width: 100%;
+  border-image: 5% black;
+  background-color: black;
+  z-index: -1;
+}
+
+#banner {
+  position: relative;
+  top: 3%;
+  height: 300px;
+  width: 100%;
+  z-index: -1;
+ 
+}
+
+#banner-h2 {
+  position: relative;
+  height: 50px;
+  width: 100%;
+  padding: 10px;
+  background-color: black;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  z-index: -1;
+}
+
+div#logo {
+  position: absolute;
+  top: 490px;
+  left: 5%;
+  height: 150px;
+}
+
+#logo-img {
+  height: 150px;
+  
+}
+
+.menu {
+  top: 5%;
+  position: absolute;
+  margin-top: 3px;
+  right: 0%;
+  float: left;
+  align-items: center;
+  padding: 2%;
+  
+
+}
+
+.menu li {
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: underline;
+ 
+}
+
+li a:hover {
+  background-color: #3e8e41;
+  color: black;
+ 
+}
+
+li a {
+  color: #FAF4F4;
+  box-shadow: 0px 9px black;
+  background-color: blue;
+  padding: 10px 10px;
+  border: 3px solid black;
+  box-shadow: 3px 3px 5px black;
+}
+
+.current {
+  color: white;
+  background-color: green;
+  border: 3px solid black;
+  box-shadow: 3px 3px 5px black;
+}
+
+#contenido {
+  position: relative;
+  height: 600px;
+  width: 80%;
+  left: 25%;
+  top: 450px;
+  line-height: 40px;
+  margin-right: 5%;
+  float: left;
+ 
+
+}
+
+
+section h2 {
+  font-size: 22px;
+  font-weight: bold;
+  padding-top: 2%;
+  color: white;
+  font-family: 'Lucida Sans';
+}
+
+section h3 {
+  font-size: 20px;
+  padding-right: 50%;
+  padding-left: 3%;
+  font-style: italic;
+  font-weight: bold;
+  font-family: 'Lucida Sans';
+}
+
+section h4 {
+  font-size: 15px;
+  padding-right: 50%;
+  padding-left: 3%;
+  color: white;
+  font-family: 'Lucida Sans';
+
+}
+
+section p {
+  top: 490px;
+  font-size: 20px;
+  padding-left: 6%;
+  padding-right: 40%;
+  margin-top: 10px;
+  background-color: rgba(125, 207, 125, 0.452);
+  font-family: 'Lucida Sans';
+}
+
+
+
+/*menu .current {
+  text-decoration: none;
+}*/

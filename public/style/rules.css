@@ -1,0 +1,42 @@
+header {
+  height: auto;
+  margin-bottom: 2px;
+  position: absolute;
+  top: 2%;
+  left: 0;
+  width: 100%;
+  font-family: 'Lucida Sans';
+}
+
+body {
+  font-family: 'Lucida Sans';
+
+}
+
+h1 {
+  top: 2%;
+  font-size: 2em;
+  font-weight: bolder;
+  text-align: center;
+}
+
+h3 {
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.lista {
+  margin-top: 280px;
+
+}
+
+.inline-header {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.h2 {
+  font-size: 18px;
+
+}
